@@ -6,9 +6,10 @@ const { SomeCrwl } = require('the-demo-crawler')
 async function tryExample () {
   const db = theDB({ /* ... */ })
 
-  const resource = db.resource('SomeCrwlResult')
+  const SomeCrwlResult = db.resource('SomeCrwlResult')
   {
-    let crawler = new SomeCrwl(resource)
+    let crawler = new SomeCrwl()
+    crawler.addResource(SomeCrwlResult)
 
     await crawler.run({})
   }

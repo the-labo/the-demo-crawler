@@ -80,9 +80,10 @@ const { SomeCrwl } = require('the-demo-crawler')
 async function tryExample () {
   const db = theDB({ /* ... */ })
 
-  const resource = db.resource('SomeCrwlResult')
+  const SomeCrwlResult = db.resource('SomeCrwlResult')
   {
-    let crawler = new SomeCrwl(resource)
+    let crawler = new SomeCrwl()
+    crawler.addResource(SomeCrwlResult)
 
     await crawler.run({})
   }
@@ -102,7 +103,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-demo-crawler@1.1.0](./doc/api/api.md)
++ [the-demo-crawler@2.0.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-demo-crawler-function-create)
 
 
