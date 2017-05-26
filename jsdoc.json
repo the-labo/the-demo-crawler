@@ -1,0 +1,76 @@
+{
+  "functions": [
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheDemoCrawler instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheDemoCrawler",
+        "description": ""
+      }
+    },
+    {
+      "name": "create",
+      "access": "",
+      "virtual": false,
+      "description": "Create a TheDemoCrawler instance",
+      "parameters": [
+        {
+          "name": "args",
+          "type": "*",
+          "description": "",
+          "default": "",
+          "optional": "",
+          "nullable": ""
+        }
+      ],
+      "examples": [],
+      "returns": {
+        "type": "TheDemoCrawler",
+        "description": ""
+      }
+    }
+  ],
+  "classes": [
+    {
+      "name": "TheDemoCrawler",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheDemoCrawler",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
+    },
+    {
+      "name": "TheDemoCrawler",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "TheDemoCrawler",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
+    }
+  ]
+}
