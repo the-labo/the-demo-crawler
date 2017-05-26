@@ -75,14 +75,14 @@ Usage
 'use strict'
 
 const theDB = require('the-db')
-const theDemoCrawler = require('the-demo-crawler')
+const { SomeCrwl } = require('the-demo-crawler')
 
 async function tryExample () {
   const db = theDB({ /* ... */ })
 
-  const resource = db.resource('Result')
+  const resource = db.resource('SomeCrwlResult')
   {
-    let crawler = theDemoCrawler(resource)
+    let crawler = new SomeCrwl(resource)
 
     await crawler.run({})
   }
@@ -102,9 +102,8 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-demo-crawler@1.0.0](./doc/api/api.md)
++ [the-demo-crawler@1.1.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-demo-crawler-function-create)
-  + [TheDemoCrawler](./doc/api/api.md#the-demo-crawler-class)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

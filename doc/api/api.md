@@ -1,19 +1,19 @@
-# the-demo-crawler@1.0.0
+# the-demo-crawler@1.1.0
 
 Demo of the-crawler
 
 + Functions
   + [create(args)](#the-demo-crawler-function-create)
-+ [`TheDemoCrawler`](#the-demo-crawler-classes) Class
-  + [new TheDemoCrawler()](#the-demo-crawler-classes-the-demo-crawler-constructor)
++ [`TheDemoCrwl`](#the-demo-crawler-classes) Class
+  + [new TheDemoCrwl()](#the-demo-crawler-classes-the-demo-crwl-constructor)
 
 ## Functions
 
 <a class='md-heading-link' name="the-demo-crawler-function-create" ></a>
 
-### create(args) -> `TheDemoCrawler`
+### create(args) -> `TheDemoCrwl`
 
-Create a TheDemoCrawler instance
+Create a TheDemoCrwl instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -23,18 +23,18 @@ Create a TheDemoCrawler instance
 
 <a class='md-heading-link' name="the-demo-crawler-classes"></a>
 
-## `TheDemoCrawler` Class
+## `TheDemoCrwl` Class
 
 
 
 
 
 
-<a class='md-heading-link' name="the-demo-crawler-classes-the-demo-crawler-constructor" ></a>
+<a class='md-heading-link' name="the-demo-crawler-classes-the-demo-crwl-constructor" ></a>
 
-### new TheDemoCrawler()
+### new TheDemoCrwl()
 
-Constructor of TheDemoCrawler class
+Constructor of TheDemoCrwl class
 
 
 
