@@ -4,7 +4,7 @@
       "name": "create",
       "access": "",
       "virtual": false,
-      "description": "Create a TheDemoCrawler instance",
+      "description": "Create a TheDemoCrwl instance",
       "parameters": [
         {
           "name": "args",
@@ -17,7 +17,7 @@
       ],
       "examples": [],
       "returns": {
-        "type": "TheDemoCrawler",
+        "type": "TheDemoCrwl",
         "description": ""
       }
     },
@@ -25,7 +25,7 @@
       "name": "create",
       "access": "",
       "virtual": false,
-      "description": "Create a TheDemoCrawler instance",
+      "description": "Create a TheDemoCrwl instance",
       "parameters": [
         {
           "name": "args",
@@ -38,35 +38,35 @@
       ],
       "examples": [],
       "returns": {
-        "type": "TheDemoCrawler",
+        "type": "TheDemoCrwl",
         "description": ""
       }
     }
   ],
   "classes": [
     {
-      "name": "TheDemoCrawler",
+      "name": "TheDemoCrwl",
       "description": "",
       "extends": [],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheDemoCrawler",
+        "name": "TheDemoCrwl",
         "description": "",
         "parameters": [],
         "examples": []
       }
     },
     {
-      "name": "TheDemoCrawler",
+      "name": "TheDemoCrwl",
       "description": "",
       "extends": [],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheDemoCrawler",
+        "name": "TheDemoCrwl",
         "description": "",
         "parameters": [],
         "examples": []
