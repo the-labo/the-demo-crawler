@@ -1,4 +1,4 @@
-# the-demo-crawler@2.0.0
+# the-demo-crawler@2.0.1
 
 Demo of the-crawler
 
