@@ -17,12 +17,10 @@ describe('the-demo-crawler', () => {
 
   it('Do test', () => {
     const db = theDB({})
-    const SomeCrwlResult = db.resource('SomeCrwlResult')
 
     ok(SomeCrwl)
 
     let crwl = new SomeCrwl()
-    crwl.addResource(SomeCrwlResult)
     ok(crwl)
   })
 })
